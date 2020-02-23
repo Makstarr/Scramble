@@ -13,6 +13,7 @@
 		2D58D0BF23F1DCB10059ABF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D58D0BE23F1DCB10059ABF8 /* Assets.xcassets */; };
 		2D58D0C223F1DCB10059ABF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D58D0C123F1DCB10059ABF8 /* Preview Assets.xcassets */; };
 		2D58D0C523F1DCB10059ABF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D58D0C323F1DCB10059ABF8 /* LaunchScreen.storyboard */; };
+		2D58D0CD23F1E6320059ABF8 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D58D0CC23F1E6320059ABF8 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D58D0C123F1DCB10059ABF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D58D0C423F1DCB10059ABF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D58D0C623F1DCB10059ABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D58D0CC23F1E6320059ABF8 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2D58D0BA23F1DCAC0059ABF8 /* SceneDelegate.swift */,
 				2D58D0BC23F1DCAC0059ABF8 /* ContentView.swift */,
 				2D58D0BE23F1DCB10059ABF8 /* Assets.xcassets */,
+				2D58D0CC23F1E6320059ABF8 /* start.txt */,
 				2D58D0C323F1DCB10059ABF8 /* LaunchScreen.storyboard */,
 				2D58D0C623F1DCB10059ABF8 /* Info.plist */,
 				2D58D0C023F1DCB10059ABF8 /* Preview Content */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D58D0C523F1DCB10059ABF8 /* LaunchScreen.storyboard in Resources */,
+				2D58D0CD23F1E6320059ABF8 /* start.txt in Resources */,
 				2D58D0C223F1DCB10059ABF8 /* Preview Assets.xcassets in Resources */,
 				2D58D0BF23F1DCB10059ABF8 /* Assets.xcassets in Resources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = 76HGCC5C4H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = scramble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = 76HGCC5C4H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = scramble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
